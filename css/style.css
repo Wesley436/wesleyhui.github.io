@@ -83,9 +83,8 @@ img {
     column-gap: 12px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
     row-gap: 12px;
-    padding-top: 32px;
 }
 
 .skills span {
@@ -106,8 +105,8 @@ img {
 }
 
 .react {
-    background-color: rgba(59, 131, 246, 0.336);
-    color: rgb(96, 165, 250);
+    background-color: rgba(246, 81, 59, 0.336);
+    color: rgb(250, 96, 96);
 }
 
 .javascript {
@@ -116,8 +115,8 @@ img {
 }
 
 .java {
-    background-color: rgba(25, 136, 58, 0.514);
-    color: rgba(125, 209, 108, 0.904);
+    background-color: rgba(167, 140, 66, 0.514);
+    color: rgb(255, 221, 177);
 }
 
 .native {
@@ -128,6 +127,51 @@ img {
 .aws {
     background-color: rgba(77, 77, 77, 0.911);
     color: rgba(187, 187, 187, 0.945);
+}
+
+.kotlin {
+    background-color: rgba(121, 17, 115, 0.911);
+    color: rgba(214, 128, 210, 0.945);
+}
+
+.swift {
+    background-color: rgba(105, 71, 20, 0.911);
+    color: rgba(204, 155, 109, 0.945);
+}
+
+.python {
+    background-color: rgba(7, 76, 94, 0.911);
+    color: rgba(138, 214, 233, 0.945);
+}
+
+.html {
+    background-color: rgba(63, 63, 63, 0.911);
+    color: rgba(153, 153, 153, 0.945);
+}
+
+.css {
+    background-color: rgba(73, 70, 238, 0.719);
+    color: rgb(165, 168, 248);
+}
+
+.mysql {
+    background-color: rgba(23, 111, 151, 0.719);
+    color: rgb(161, 252, 255);
+}
+
+.oracle {
+    background-color: rgba(131, 26, 12, 0.719);
+    color: rgb(231, 117, 117);
+}
+
+.mongodb {
+    background-color: rgba(10, 148, 28, 0.719);
+    color: rgb(91, 216, 102);
+}
+
+.firebase {
+    background-color: rgba(253, 186, 40, 0.719);
+    color: rgb(253, 233, 50);
 }
 
 .areas {
@@ -146,6 +190,7 @@ img {
     display: grid;
 	grid-template-columns: repeat(3,minmax(0,1fr));
     gap: 2rem;
+    text-align: center;
 }
 
 .area {
@@ -226,7 +271,7 @@ img {
 
 .projects h2 {
     text-align: center;
-    margin-bottom: 4rem;
+    margin-bottom: 0.5rem;
     font-size: 1.875rem;
     line-height: 2.25rem;
     font-weight: 700;
@@ -292,8 +337,11 @@ img {
 }
 
 .project-icon {
+    padding: 1rem;
     height: 15rem;
     width: auto;
+    max-width: 25%;
+    object-fit: contain;
 }
 
 .education-section {
@@ -310,7 +358,7 @@ img {
 
 .educations h2 {
     text-align: center;
-    margin-bottom: 4rem;
+    margin-bottom: 0.5rem;
     font-size: 1.875rem;
     line-height: 2.25rem;
     font-weight: 700;
@@ -330,6 +378,20 @@ img {
     padding: 2rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+}
+
+.school {
+    display: grid;
+    grid-template-columns: repeat(12, [col-start] 1fr);
+    gap: 1rem;
+}
+
+.school-image {
+    grid-column: col-start 1 / span 2;
+}
+
+.school-info {
+    grid-column: col-start 3 / span 10;
 }
 
 .education h3 {
