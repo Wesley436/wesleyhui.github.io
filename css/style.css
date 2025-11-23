@@ -29,11 +29,13 @@ img {
 
 .introduction {
     font-size: 2rem;
+    text-align: center;
 }
 
 .introduction a {
     transition: color 0.3s ease;
     text-decoration: none;
+    font-size: 24px;
 }
 
 .introduction a:hover {
@@ -404,6 +406,17 @@ img {
 
 .education p {
     color: rgb(156 163 175)
+}
+
+.contact-section {
+    text-align: center;
+    color: white;
+    line-height: 3rem;
+}
+
+.contact-icon {
+    height: 3rem;
+    width: auto;
 }
 
 footer {
