@@ -213,8 +213,8 @@ img {
 }
 
 .project-section {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     padding-left: 1rem;
     padding-right: 1rem;
 }
@@ -283,6 +283,65 @@ img {
     color: rgb(156 163 175);
     font-size: 0.875rem;
     line-height: 2rem;
+}
+
+.project-icons {
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project-icon {
+    height: 15rem;
+    width: auto;
+}
+
+.education-section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.educations {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.educations h2 {
+    text-align: center;
+    margin-bottom: 4rem;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 700;
+    opacity: 1;
+    color: white;
+}
+
+.education {
+    background-color: rgba(17, 24, 39, 0.5);
+    box-sizing: border-box;
+    border: 0.8px solid rgb(31, 41, 55);
+    border-radius: 12px;
+    line-height: 24px;
+    display: grid;
+    grid-template-columns: repeat(1,minmax(0,1fr));
+    gap: 2rem;
+    padding: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.education h3 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+    color: rgb(255, 255, 255);
+}
+
+.education p {
+    color: rgb(156 163 175)
 }
 
 footer {
