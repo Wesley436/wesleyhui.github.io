@@ -100,6 +100,11 @@ img {
     padding-top: 8px;
 }
 
+.skill-icon {
+    height: 1rem;
+    width: 1rem;
+}
+
 .react {
     background-color: rgba(59, 131, 246, 0.336);
     color: rgb(96, 165, 250);
@@ -205,6 +210,79 @@ img {
 
 .list-dot.mobile {
     background-color: rgb(250, 222, 96);
+}
+
+.project-section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.projects {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projects h2 {
+    text-align: center;
+    margin-bottom: 4rem;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 700;
+    opacity: 1;
+    color: white;
+}
+
+.project {
+    background-color: rgba(17, 24, 39, 0.5);
+    box-sizing: border-box;
+    border: 0.8px solid rgb(31, 41, 55);
+    border-radius: 12px;
+    line-height: 24px;
+    display: grid;
+    grid-template-columns: repeat(1,minmax(0,1fr));
+    gap: 2rem;
+    padding: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.project h3 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+    color: rgb(255, 255, 255);
+}
+
+.project p {
+    color: rgb(156 163 175)
+}
+
+.project-details {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    gap: 1.5rem;
+}
+
+.project-details h4.feature-1 {
+    color: rgb(96 165 250)
+}
+
+.project-details h4.feature-2 {
+    color: rgb(192 132 252)
+}
+
+.project-details h4.feature-3 {
+    color: rgb(250, 222, 96)
+}
+
+.project-details ul {
+    color: rgb(156 163 175);
+    font-size: 0.875rem;
+    line-height: 2rem;
 }
 
 footer {
